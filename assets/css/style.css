@@ -9,6 +9,10 @@ header{
   padding-bottom: 10em;
   height: 1200px;
 }
+.fondocolor{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
 h5{
     font-weight: 700;
 }
@@ -18,9 +22,9 @@ h5{
 .titulohero1{
 font-weight: 400;
 }
-.titulohero2{
+/* .titulohero2{
 -webkit-text-stroke: 2px black;
-}
+} */
 .reseña{
     font-weight: 700;
 }
