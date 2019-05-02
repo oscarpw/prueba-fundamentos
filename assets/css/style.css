@@ -1,11 +1,46 @@
 body{
-  font-family: 'Raleway', sans-serif;
+font-family: 'Cabin', sans-serif;
 }
 header{
   background-image: url('../img/bg-hero.JPG');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   padding-bottom: 10em;
   height: 1200px;
+}
+.tituloheropad{
+        padding-top: 500px;
+}
+.titulohero1{
+font-weight: 400;
+}
+.titulohero2{
+-webkit-text-stroke: 2px black;
+}
+.reseña{
+    font-weight: 700;
+}
+.letra {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 16pt;
+}
+.parrafo{
+    text-align: justify;
+}
+.carousel-indicators{
+    top: 187px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.carousel-indicators{
+    top: 740px;
+}
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #373a3c;
 }
