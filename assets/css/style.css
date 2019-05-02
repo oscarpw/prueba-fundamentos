@@ -9,6 +9,9 @@ header{
   padding-bottom: 10em;
   height: 1200px;
 }
+h5{
+    font-weight: 700;
+}
 .tituloheropad{
         padding-top: 500px;
 }

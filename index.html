@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Prueba Fundamentos Web | Oscar Castillo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--css de bootstrap 4.3.1-->
+    <!--css de bootstrap 4.3.1-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Goggle Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster" rel="stylesheet">
@@ -13,234 +13,340 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!--Mi Estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+</head>
 <body>
-<!-- Barra de Navegacion principal -->
+    <!-- Barra de Navegacion principal -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt="Logo primeraweb"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt="Logo primeraweb"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="#about">Acerca de mí<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work">Experiencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#works">Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
-          </li>
-        </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#about">Acerca de mí<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiance">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-  </nav>
-  <header class="hero text-light text-center my-5">
-      <div class="tituloheropad container-fluid">
-          <h2 class="titulohero1 display-4 my-5">MY NAME IS</h2>
-          <h1 class="titulohero2 display-1 font-weight-bold my-5">Oscar Castillo</h1>
-      </div>
-  </header>
-  <!-- reseña -->
-  <div class="container">
-      <div class="row">
-          <div class="col-md-6 offset-md-3">
-              <p class="reseña text-center">Profesional de la informática, actualmente trabajando para Elecmetal S.A en el estudio de mejora en procesos de mantenimiento minero utilizando el
-                  Simulador Industrial computacional ProModel Simulator.<br><br>
-                  En forma paralela, trabajo en mi emprendimiento llamado <span class="letra">PrimeraWeb </span>relacionado al desarrollo y diseño de sitios web, colaborando de forma permanente con clientes de diferentes rubros y tipos de sitios como Blogs, Landing Page, Medios de comunicación, tiendas E-Commerce.</p>
-              <hr>
-          </div>
-      </div>
-      <div class="row">
-      <!-- ingredientes -->
-      <div class="parrafo col-md-6">
-         <p>1-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <!-- pasos -->
-      <div class="col-md-6">
-         <p>2-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-  </div>
-  <hr>
-  </div>
+    </nav>
+    <header class="hero text-light text-center my-5">
+        <div class="tituloheropad container-fluid">
+            <h2 class="titulohero1 display-4 my-5">MY NAME IS</h2>
+            <h1 class="titulohero2 display-1 font-weight-bold my-5">Oscar Castillo</h1>
+        </div>
+    </header>
+    <!-- reseña -->
+    <section id="about" class="container d-none d-md-block">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <p class="reseña text-center">Profesional de la informática, actualmente trabajando para Elecmetal S.A en el estudio de mejora en procesos de mantenimiento minero utilizando el
+                    Simulador Industrial computacional ProModel Simulator.<br><br>
+                    En forma paralela, trabajo en mi emprendimiento llamado <span class="letra">PrimeraWeb </span>relacionado al desarrollo y diseño de sitios web, colaborando de forma permanente con clientes de diferentes rubros y tipos de sitios como Blogs, Landing Page, Medios de comunicación, tiendas E-Commerce.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <!-- parrafo1 -->
+                <div class="parrafo col-md-6">
+                    <p>1-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <!-- parrafo2 -->
+                <div class="col-md-6">
+                    <p>2-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <hr>
+        </section>
 <!-- Carrusel Experiencia -->
-<div class="container text-center my-5">
-    <h2 class="text-weight-bold">MI EXPERIENCIA</h2>
-    <div id="ricomidacarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#ricomidacarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#ricomidacarousel" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/img/slider-1.png" alt="slider1" class="img-fluid">
+        <section id="experiance"class="container text-center my-5">
+            <h2 class="text-weight-bold">MI EXPERIENCIA</h2>
+            <div id="ricomidacarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#ricomidacarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#ricomidacarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/slider-1.png" alt="slider1" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/slider-2.png" alt="slider2" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/slider-3.png" alt="slider3" class="img-fluid">
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/slider-2.png" alt="slider2" class="img-fluid">
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/slider-4.png" alt="slider5" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/slider-5.png" alt="slider6" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/slider-6.png" alt="slider7" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/slider-3.png" alt="slider3" class="img-fluid">
+
+                </div>
+            </div>
+        </section>
+
+        <hr>
+<!-- Últimos Trabajos -->
+    <section id="works" class="container-fluid my-5 p-5 bg-info">
+            <h2 class="display-3 text-center font-weight-bold my-4 text-white">Mis últimos trabajos</h2>
+        <div class="row">
+            <div class="card-deck">
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/card-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Revista Smotos</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a href="#" class="btn btn-outline-info mt-4" data-toggle="tooltip" data-placement="bottom" title="Presiona para ver el proyecto" data-toggle="modal" data-target="#motos">Ver más</a>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/img/slider-4.png" alt="slider5" class="img-fluid">
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Austral Shipping Agency</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a href="#" class="btn btn-outline-info mt-4" data-toggle="tooltip" data-placement="bottom" title="Presiona para ver el proyecto" data-toggle="modal" data-target="#austral">Ver más</a>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/slider-5.png" alt="slider6" class="img-fluid">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/slider-6.png" alt="slider7" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Top Marine</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a href="#" class="btn btn-outline-info mt-4" data-toggle="tooltip" data-placement="bottom" title="Presiona para ver el proyecto" data-toggle="modal" data-target="#top">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
-</div>
-
-<hr>
-<section id="work" class="container-fluid my-5 p-5 bg-info">
-  <h2 class="display-3 text-center font-weight-bold my-4 text-white">Mis trabajos</h2>
-
-  <div class="card-deck">
-  <div class="card">
-    <img src="assets/img/card-1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Asado en la Patagonia</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <a href="#" class="btn btn-outline-info mt-4" data-toggle="modal" data-target="#asado">Ver más</a>
-
-    </div>
-  </div>
-  <div class="card">
-    <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Papas del fin del mundo</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-outline-info mt-4" data-toggle="modal" data-target="#papas">Ver más</a>
-
-    </div>
-  </div>
-  <div class="card">
-    <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Salmones de Alaska</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <a href="#" class="btn btn-outline-info mt-4" data-toggle="modal" data-target="#salmones">Ver más</a>
-
-    </div>
-  </div>
-</div>
-</section>
-<!-- Modal -->
-<div class="modal fade" id="asado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Asado en la Patagonia</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="assets/img/card-1.jpg" class="img-fluid my-3" alt="asado">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- SEGUNDO CARD -->
+    <div class="row mt-5">
+        <div class="card-deck">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/card-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Food Move</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a href="#" class="btn btn-outline-info mt-4" data-toggle="tooltip" data-placement="bottom" title="Presiona para ver el proyecto" data-toggle="modal" data-target="#food">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/card-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jorge Morales</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a href="#" class="btn btn-outline-info mt-4" data-toggle="tooltip" data-placement="bottom" title="Presiona para ver el proyecto" data-toggle="modal" data-target="#morales">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/card-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Saint-Marie de Los Andes</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a href="#" class="btn btn-outline-info mt-4" data-toggle="tooltip" data-placement="bottom" title="Presiona para ver el proyecto" data-toggle="modal" data-target="#saintmarie">Ver más</a>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="papas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Papas del fin del mundo</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="assets/img/card-2.jpg" class="img-fluid my-3" alt="papas">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="salmones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Salmones de alaska</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="assets/img/card-3.jpg" class="img-fluid my-3" alt="salmones">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </section>
+        <!-- Modal -->
+        <div class="modal fade" id="motos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Revista Smotos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/card-1.jpg" class="img-fluid my-3" alt="motos">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+        <!-- Modal 2-->
+        <div class="modal fade" id="austral" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Austral Shipping agency</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/card-2.jpg" class="img-fluid my-3" alt="austral">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="modal fade" id="top" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Top Marine</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/card-3.jpg" class="img-fluid my-3" alt="top">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="modal fade" id="food" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Foodmove</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/card-3.jpg" class="img-fluid my-3" alt="food">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="modal fade" id="morales" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Jorge Morales</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/card-3.jpg" class="img-fluid my-3" alt="morales">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="modal fade" id="saintmarie" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Saint-Marie de Los Andes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/card-3.jpg" class="img-fluid my-3" alt="saintmarie">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- CONTACTO -->
+        <section id="contact" class="container my-5">
+            <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
+            <p class="text-center my-4">Cuentame tu idea, proyecto o emprendimiento. Materializa todas tus ideas con un desarrollo tecnológico integral.</p>
+            <div class="typeform-widget" data-url="https://oscar734574.typeform.com/to/OXVIF2" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=OXVIF2&utm_source=typeform.com-13829422-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 
-<section id="contact" class="container my-5">
-  <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
-  <p class="text-center my-4">Cuentame tu idea, proyecto o emprendimiento. Materializa todas tus ideas con un desarrollo tecnológico integral.</p>
-  <div class="typeform-widget" data-url="https://oscar734574.typeform.com/to/OXVIF2" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=OXVIF2&utm_source=typeform.com-13829422-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
-
-</section>
-<footer id="contacto" class="bg-info text-center text-white">
-    <a href="https://github.com/oscarpw"><i class="fab fa-github-square fa-5x"></i></a>
-    <a href="https://www.facebook.com/oskr.castillom"><i class="fab fa-facebook-square fa-5x"></i></a>
-    <a href="https://www.linkedin.com/in/oscar-castillo-meza/"><i class="fab fa-linkedin fa-5x"></i></a><br>
-    <a class="logo espacio" href="#"> <img src="assets/img/logo.png" alt="Logo pw"> </a>
-  <p>Proyecto final Fundamentos Web - Desafío LATAM 2019.</p>
-</footer>
+        </section>
+        <footer id="contact" class="bg-info text-center text-white">
+            <a href="https://github.com/oscarpw"><i class="fab fa-github-square fa-5x"></i></a>
+            <a href="https://www.facebook.com/oskr.castillom"><i class="fab fa-facebook-square fa-5x"></i></a>
+            <a href="https://www.linkedin.com/in/oscar-castillo-meza/"><i class="fab fa-linkedin fa-5x"></i></a><br>
+            <a class="logo espacio" href="#"> <img src="assets/img/logo.png" alt="Logo pw"></a>
+            <p>Proyecto final Fundamentos Web - Desafío LATAM 2019.</p>
+        </footer>
 
 
 
 
 
-</body>
+    </body>
 
-<!--jQuery 3.4.0 SIN SLIM-->
-<script
-  src="https://code.jquery.com/jquery-3.4.0.min.js"
-  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-  crossorigin="anonymous"></script>
-<!--Popper JS 1.14.3-->
+    <!--jQuery 3.4.0 SIN SLIM-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
+    <!--Popper JS 1.14.3-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<!--Bootstrap JS 4.3.1-->
+    <!--Bootstrap JS 4.3.1-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<!--Mi Script-->
-<script src="assets/js/script.js"></script>
+    <!--Mi Script-->
+    <script src="assets/js/script.js"></script>
 
-</html>
+    </html>
